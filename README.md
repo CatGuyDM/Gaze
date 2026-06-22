@@ -2,9 +2,9 @@
 
 Gaze finds SPPS (solid-phase peptide synthesis) impurities in LC-MS data.
 
-You give it a peptide sequence and an mzML file. It looks for common synthesis
+Given a peptide sequence and an mzML file, it will look for common synthesis
 byproducts by matching the masses of the peaks in the spectrum against a list
-of predicted impurities, then shows how much of the signal is the real peptide
+of predicted impurities, then show how much of the signal is the real peptide
 versus impurities.
 
 ## Process
@@ -37,11 +37,8 @@ Needs Python 3.10+.
 streamlit run streamlit_app.py
 ```
 
-Open http://localhost:8501, enter a sequence, pick a C-terminal tag, upload an
-mzML file, and click Run.
 
 ## Input
 
 mzML files with centroided MS1 data (use MSConvert to peak-pick).
-
 See LOGIC.md for the impurity list and how the matching works.
