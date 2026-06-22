@@ -1,0 +1,15 @@
+[server]
+maxUploadSize = 2048        # 2 GB in MB
+enableXsrfProtection = false
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base                  = "dark"
+primaryColor          = "#7fcfc4"
+backgroundColor       = "#0b0f1e"
+secondaryBackgroundColor = "#070b16"
+textColor             = "#dde4f0"
+font                  = "sans serif"

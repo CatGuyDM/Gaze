@@ -1,0 +1,22 @@
+# Gaze v3 dependencies
+#
+# Pins below are the combination known to install and run cleanly on
+# macOS / Apple Silicon / Python 3.13 (tested 2026-04). On other platforms
+# the upper bounds may be relaxed — the code itself doesn't pin to any
+# particular API version of these libraries.
+
+numpy>=1.24
+pandas>=2.0
+
+# reportlab: PDF report generation
+reportlab>=4.0
+
+# streamlit: web UI (`streamlit run streamlit_app.py`)
+# Pin to <=1.39 + protobuf<5 to avoid an import-hang issue with newer
+# protobuf wheels on Python 3.13 / Apple Silicon. Newer streamlit may work
+# fine on Linux/Intel; relax these if you hit no issues on your platform.
+streamlit>=1.35,<=1.39
+protobuf<5
+
+# Optional: pytest for running tests/
+# pytest>=7.0
