@@ -18,7 +18,7 @@ versus impurities.
 
 There are two modes: a default mode that only keeps confident matches, and a
 triage mode that returns everything above the noise floor (sorted into A/B/C
-tiers) for when you don't want to miss anything.
+tiers)
 
 ## Install
 
