@@ -1,6 +1,6 @@
 # Gaze
 
-Gaze finds SPPS (solid-phase peptide synthesis) impurities in LC-MS data.
+Gaze finds SPPS impurities in LC-MS data.
 
 Given a peptide sequence and an mzML file, it will look for common synthesis
 byproducts by matching the masses of the peaks in the spectrum against a list
